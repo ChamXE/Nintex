@@ -16,7 +16,7 @@ public class Q1 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Insert size of matrix: ");
+		System.out.print("Insert size of matrix: ");
 		int n = sc.nextInt();
 		int[][] matrix = new int[n][n];
 		for(int i=0; i<n; i++){
