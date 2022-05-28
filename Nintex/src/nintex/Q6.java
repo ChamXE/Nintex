@@ -6,6 +6,7 @@
 package nintex;
 
 import java.util.HashMap;
+import java.util.Scanner;
 
 /**
  *
@@ -16,8 +17,9 @@ public class Q6 {
 	public static void main(String[] args) {
 		
 		HashMap<Character, Integer> map = new HashMap<>();
-		String L1 = "peer";
-		String L2 = "deer";
+		Scanner sc = new Scanner(System.in);
+		String L1 = sc.nextLine();
+		String L2 = sc.nextLine();
 		for(int i=0; i<L1.length(); i++){
 			if(map.get(L1.charAt(i)) == null){
 				map.put(L1.charAt(i), 1);
